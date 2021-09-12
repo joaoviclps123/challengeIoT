@@ -1,0 +1,37 @@
+<circuit Speed_per="100" Speed_sps="1000000" Simu_Step_nS="1000" reactStep="50" type="simulide_0.4" noLinAcc="5" animate="0">
+
+Unique  Id: Node-14: 
+Circuit Id: Node-41
+<item labelx="-16" Show_id="false" labely="-24" circPos="0,0" itemtype="Node" valLabelx="0" y="-200" labelrot="0" valLabRot="0" circRot="340" vflip="1" hflip="1" rotation="0" id="Node-41" boardPos="-1e+06,-1e+06" boardRot="-1000000" x="-372" objectName="Node-14" valLabely="0" mainComp="false"/>
+
+Unique  Id: Clock-13: 
+Circuit Id: Clock-62
+<item labelx="-64" Freq="100" Show_id="false" labely="-24" circPos="0,0" itemtype="Clock" valLabelx="-16" y="-200" labelrot="0" valLabRot="0" circRot="0" vflip="1" hflip="1" Unit=" V" rotation="0" id="Clock-62" boardPos="-1e+06,-1e+06" Voltage="5" Out="true" boardRot="-1000000" x="-404" Show_Volt="true" objectName="Clock-13" valLabely="8" Always_On="false" mainComp="false"/>
+
+Unique  Id: Frequencimeter-12: 
+Circuit Id: Frequencimeter-61
+<item labelx="-32" Show_id="false" labely="-24" circPos="0,0" itemtype="Frequencimeter" valLabelx="0" y="-224" labelrot="0" valLabRot="0" circRot="-5.8509513026372588e+307" vflip="1" hflip="1" rotation="0" id="Frequencimeter-61" boardPos="-1e+06,-1e+06" boardRot="-1000000" x="-328" objectName="Frequencimeter-12" valLabely="0" mainComp="false"/>
+
+Unique  Id: Uno-4: 
+Circuit Id: Arduino Uno-1
+<item labelx="52" Show_id="true" labely="-15" circPos="0,0" itemtype="Subcircuit" valLabelx="77" y="-240" labelrot="0" valLabRot="-90" circRot="0" vflip="1" hflip="1" rotation="0" id="Arduino Uno-1" boardPos="-1e+06,-1e+06" boardRot="-1000000" x="-268" objectName="Uno-4" BoardId="" valLabely="111" Logic_Symbol="false" mainComp="false">
+  <mainCompProps Auto_Load="false" Init_gdb="false" Logic_Symbol="false" Mhz="16" Program="../../../../../../../Desktop/NAC4/NAC-4.hex"/>
+ </item>
+
+Unique  Id: SerialPort-15: 
+Circuit Id: SerialPort-61
+<item Mcu_Id="atmega328-5" labelx="-34" DataBits="8" Show_id="false" labely="-20" Mcu_Uart="1" circPos="0,0" itemtype="SerialPort" valLabelx="0" y="-276" labelrot="0" valLabRot="0" circRot="-5.4861292904841833e+303" vflip="1" hflip="1" StopBits="1" Auto_Open="false" rotation="0" id="SerialPort-61" boardPos="-1e+06,-1e+06" Parity="0" boardRot="-1000000" BaudRate="9600" FlowControl="0" x="-212" Port_Name="COM6" objectName="SerialPort-15" valLabely="0" mainComp="false"/>
+
+Unique  Id: Connector-32: 
+Circuit Id: Connector-37
+<item pointList="-388,-200,-372,-200" labelx="-16" Show_id="false" labely="-24" circPos="0,0" endpinid="Node-14-0" itemtype="Connector" valLabelx="0" y="-200" labelrot="0" valLabRot="0" enodeid="Circ_eNode-139" circRot="0" vflip="1" hflip="1" rotation="0" id="Connector-37" boardPos="-1e+06,-1e+06" boardRot="-1000000" x="-388" objectName="Connector-32" valLabely="0" startpinid="Clock-13-outnod" mainComp="false"/>
+
+Unique  Id: Connector-34: 
+Circuit Id: Connector-42
+<item pointList="-372,-200,-372,-224,-368,-224" labelx="-16" Show_id="false" labely="-24" circPos="0,0" endpinid="Frequencimeter-12-lPin" itemtype="Connector" valLabelx="0" y="-200" labelrot="0" valLabRot="0" enodeid="Circ_eNode-139" circRot="0" vflip="1" hflip="1" rotation="0" id="Connector-42" boardPos="-1e+06,-1e+06" boardRot="-1000000" x="-372" objectName="Connector-34" valLabely="0" startpinid="Node-14-2" mainComp="false"/>
+
+Unique  Id: Connector-35: 
+Circuit Id: Connector-43
+<item pointList="-372,-200,-260,-200,-260,-208" labelx="-16" Show_id="false" labely="-24" circPos="0,0" endpinid="Uno-4-PD2" itemtype="Connector" valLabelx="0" y="-200" labelrot="0" valLabRot="0" enodeid="Circ_eNode-139" circRot="0" vflip="1" hflip="1" rotation="0" id="Connector-43" boardPos="-1e+06,-1e+06" boardRot="-1000000" x="-372" objectName="Connector-35" valLabely="0" startpinid="Node-14-1" mainComp="false"/>
+ 
+</circuit>
